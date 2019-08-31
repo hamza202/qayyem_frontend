@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>قيم</title>
+    <link rel="stylesheet" href="css/bootstrap-rtl.css">
+    <link rel="stylesheet" href="css/sweetalert2.css">
+    <link rel="stylesheet" href="css/website.css">
+</head>
+<body>
+<div class="page-container home-page">
+    <header class="header ">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-lg-end " id="navbarNavAltMarkup">
+                    <div class="search-header  position-relative flex-grow-1 d-flex mt-2 mt-lg-0">
+                        <form action="#" class="w-100">
+                            <input type="text" class="form-control" placeholder="ابحث عن شركة للتقييم ...">
+                            <button class="header-search-btn">
+                                <i class="far fa-search"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="#">الأقسام</a>
+                        <a class="nav-item nav-link" href="#">اقترح جهة اتصال</a>
+                        <a class="nav-item nav-link" href="#">من نحن</a>
+                        <a class="nav-item nav-link" href="#">اتصل بنا</a>
+                    </div>
+                    <div class="dropdown header-drop text-center">
+                        <button class="btn dropdown-toggle " type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="images/user-header.png" alt="">
+                            محمد
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">الملف الشخصي</a>
+                            <a class="dropdown-item" href="#">تسجيل الخروج</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="page-container pb-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col p-0">
+                    <div class="sub-page-bg"
+                         style="background: url(images/quta-bg.jpg) no-repeat center center; background-size: cover">
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 p-0">
+                    <div class="my-banner wight-bg py-3">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col ">
+                                    <h4 class="mb-0 font-600">
+                                        اقتراح جهة للتقييم
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mb-5 mt-4 justify-content-center">
+                <div class="col-md-9">
+                    <div class="suggestion-card p-4">
+                        <p>
+                            لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات
+                            المطابع ودور النشر. كان لوريم إيبسوم ولايزال ويُستخدم في صناعات المطابع ودور النشر. كان
+                            لوريم إيبسوم ولايزال وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم
+                            ولايزال ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال
+                        </p>
+                        <form action="#" data-parsley-validate="" data-parsley-trigger="keyup , change" novalidate="">
+                            <div class="suggestion-form">
+                                <div class="form-group">
+                                    <label for="c_name">اسم الشركة <span class="red-color">*</span></label>
+                                    <input id="c_name" type="text"  class="form-control" placeholder="ادخل اسم الشركة" required="" data-parsley-required-message="ادخل اسم الشركة ">
+                                </div>
+                                <div class="form-group my-select">
+                                    <label for="c_category">تصنيف الشركة <span class="red-color">*</span></label>
+                                    <select class="form-control parsley-success" id="c_category" required="" data-parsley-required-message="يجب اختيار تصنيف الشركة ">
+                                        <option value="" selected>التصنيف حسب</option>
+                                        <option value="1">2</option>
+                                        <option value="2">3</option>
+                                        <option value="3">4</option>
+                                        <option value="4">5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="mobile">رقم الجوال <span class="red-color">*</span></label>
+                                    <input  id="mobile" type="number" class="form-control" placeholder="05XXXXXXXX" required=""
+                                            data-parsley-required-message="ادخل رقم الجوال">
+                                </div>
+                                <div class="form-group">
+                                    <label for="c_facebook">صفحة الفيسبوك </label>
+                                    <input id="c_facebook" type="text"  class="form-control" placeholder="www.facebook/username">
+                                </div>
+                                <div class="form-group">
+                                    <label for="c_info">معلومات عن الشركة</label>
+                                    <textarea id="c_info"  class="form-control" placeholder="ادخل معلومات الشركة..." rows="4"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="c_email">ايميل التواصل </label>
+                                    <input id="c_email" type="email"  class="form-control" placeholder="email@email.com">
+                                </div>
+                                <div class="form-group c-file">
+                                    <label for="c_file">ارفاق صورة الشعار </label>
+                                    <input id="c_file" type="file"  >
+                                </div>
+                                <button type="submit" class="d-block my-btn green-btn text-center px-5 font-600">
+                                    اقتراح شركة
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-md-right text-center ">
+                    <p class="m-md-0 mb-3">جميع الحقوق محفوظة &copy; لموقع قيم</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="social-footer list-inline text-md-left text-center m-0">
+                        <li class="list-inline-item "><a href="#" class="insta"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="list-inline-item "><a href="#" class="twit"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="face"><i class="fab fa-facebook-f"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<!--Modal-->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-rtl.js"></script>
+<script src="js/parsley.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

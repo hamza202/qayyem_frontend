@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>قيم</title>
+    <link rel="stylesheet" href="css/bootstrap-rtl.css">
+    <link rel="stylesheet" href="css/sweetalert2.css">
+    <link rel="stylesheet" href="css/website.css">
+</head>
+<body>
+<div class="page-container home-page">
+    <header class="header ">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-lg-end " id="navbarNavAltMarkup">
+                    <div class="search-header  position-relative flex-grow-1 d-flex mt-2 mt-lg-0">
+                        <form action="#" class="w-100">
+                            <input type="text" class="form-control" placeholder="ابحث عن شركة للتقييم ...">
+                            <button class="header-search-btn">
+                                <i class="far fa-search"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="#">الأقسام</a>
+                        <a class="nav-item nav-link" href="#">اقترح جهة اتصال</a>
+                        <a class="nav-item nav-link" href="#">من نحن</a>
+                        <a class="nav-item nav-link" href="#">اتصل بنا</a>
+                    </div>
+                    <div class="dropdown header-drop text-center">
+                        <button class="btn dropdown-toggle " type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="images/user-header.png" alt="">
+                            محمد
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">الملف الشخصي</a>
+                            <a class="dropdown-item" href="#">تسجيل الخروج</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="page-container pb-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col p-0">
+                    <div class="sub-page-bg"
+                         style="background: url(images/bg2.jpg) no-repeat center center; background-size: cover">
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 p-0">
+                    <div class="my-banner menu-banner wight-bg py-3">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg-3 position-relative text-center">
+                                    <div class="edit-profile-photo">
+                                        <img class="profile-pic pic1" src="images/up-img.png" alt="">
+                                        <div class="change-photo-btn">
+                                            <div class="photoUpload">
+                                                <input type="file" class="upload file-upload up1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9">
+                                    <div class="row mt-3 mt-md-4 mt-lg-0">
+                                        <div class="col-md-3 text-center  mt-md-0 mt-4">
+                                            <h6 class="font-600">
+                                                عدد التقيمات
+                                            </h6>
+                                            <p class="mb-0 mt-md-3">
+                                                40 تقييم
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3 text-center mt-md-0 mt-4">
+                                            <h6 class="font-600">
+                                                المتابعين
+                                            </h6>
+                                            <p class="mb-0 mt-md-3">
+                                                40 متابع
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3 text-center mt-md-0 mt-4">
+                                            <h6 class="font-600">
+                                                النقاط المكتسبة
+                                            </h6>
+                                            <p class="mb-0 mt-md-3">
+                                                200 نقطة
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3 text-center mt-md-0 mt-4">
+                                            <h6 class="font-600">
+                                                اكمال الملف الشخصي
+                                            </h6>
+                                            <div class="progress-pie-chart" data-percent="40">
+                                                <div class="ppc-progress">
+                                                    <div class="ppc-progress-fill"></div>
+                                                </div>
+                                                <div class="ppc-percents">
+                                                    <div class="pcc-percents-wrapper">
+                                                        <span>%</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="row pt-4">
+                <div class="col-lg-9 offset-lg-3">
+                    <form action="#"  data-parsley-validate="" data-parsley-trigger="keyup , change" novalidate="">
+                        <div class="edit-profile-form-container my-card p-4">
+                            <h5 class="font-700 mainColor mb-4">
+                                الإعدادات الشخصية
+                            </h5>
+                            <div class="form-group position-relative">
+                                <button type="button" class="left-btn e-btn">
+                                    تعديل
+                                </button>
+                                <button type="button" class="left-btn d-none s-btn">
+                                    حفظ
+                                </button>
+                                <div class="clearfix">
+                                    <label for="real-name" class="float-right">الإسم الحقيقي <span class="red-color">*</span></label>
+                                    <p class="m-0 percent-number float-left">
+                                        10%
+                                    </p>
+                                </div>
+                                <input disabled id="real-name" type="text" class="form-control" placeholder="الإسم الحقيقي" required=""
+                                      value="حمزة أبو عيطة" data-parsley-required-message="ادخل اسمك الحقيقي">
+                            </div>
+                            <div class="form-group position-relative">
+                                <button type="button" class="left-btn e-btn">
+                                    تعديل
+                                </button>
+                                <button type="button" class="left-btn d-none s-btn">
+                                    حفظ
+                                </button>
+                                <div class="clearfix">
+                                    <label for="user-name" class="float-right">اسم المستخدم <span class="red-color">*</span></label>
+                                    <p class="m-0 percent-number float-left">
+                                        10%
+                                    </p>
+                                </div>
+                                <input disabled id="user-name" type="text" class="form-control" placeholder="اسم المستخدم" required=""
+                                       value="حمزة" data-parsley-required-message="ادخل اسم المستخدم">
+                            </div>
+                            <div class="form-group position-relative">
+                                <button type="button" class="left-btn e-btn">
+                                    تعديل
+                                </button>
+                                <button type="button" class="left-btn d-none s-btn">
+                                    حفظ
+                                </button>
+                                <div class="clearfix">
+                                    <label for="gender" class="float-right">الجنس <span class="red-color">*</span></label>
+                                    <p class="m-0 percent-number float-left">
+                                        10%
+                                    </p>
+                                </div>
+                                <input disabled id="gender" type="text" class="form-control" placeholder="الجنس" required=""
+                                       value="ذكر" data-parsley-required-message="ادخل نوع الجنس">
+                            </div>
+                            <div class="form-group position-relative">
+                                <button type="button" class="left-btn e-btn">
+                                    تعديل
+                                </button>
+                                <button type="button" class="left-btn d-none s-btn">
+                                    حفظ
+                                </button>
+                                <div class="clearfix">
+                                    <label for="City" class="float-right">المدينة <span class="red-color">*</span></label>
+                                    <p class="m-0 percent-number float-left">
+                                        10%
+                                    </p>
+                                </div>
+                                <input disabled id="City" type="text" class="form-control" placeholder="المدينة" required=""
+                                       value="غزة" data-parsley-required-message="ادخل المدينة">
+                            </div>
+                            <div class="form-group position-relative">
+                                <button type="button" class="left-btn e-btn">
+                                    تعديل
+                                </button>
+                                <button type="button" class="left-btn d-none s-btn">
+                                    حفظ
+                                </button>
+                                <div class="clearfix">
+                                    <label for="Nationality" class="float-right">الجنسية <span class="red-color">*</span></label>
+                                    <p class="m-0 percent-number float-left">
+                                        10%
+                                    </p>
+                                </div>
+                                <input disabled id="Nationality" type="text" class="form-control" placeholder="الجنسية" required=""
+                                       value="فلسطيني" data-parsley-required-message="ادخل الجنسية">
+                            </div>
+                            <div class="form-group position-relative">
+                                <button type="button" class="left-btn e-btn">
+                                    تعديل
+                                </button>
+                                <button type="button" class="left-btn d-none s-btn">
+                                    حفظ
+                                </button>
+                                <div class="clearfix">
+                                    <label for="Email" class="float-right">بريد الكتروني <span class="red-color">*</span></label>
+                                    <p class="m-0 percent-number float-left">
+                                        10%
+                                    </p>
+                                </div>
+                                <input disabled id="Email" type="email" class="form-control" placeholder="البريد الإلكتروني" required=""
+                                       value="h@hotmail.com" data-parsley-required-message="ادخل البريد الإلكتروني">
+                            </div>
+                            <div class="form-group position-relative">
+                                <button type="button" class="left-btn e-btn">
+                                    تعديل
+                                </button>
+                                <button type="button" class="left-btn d-none s-btn">
+                                    حفظ
+                                </button>
+                                <div class="clearfix">
+                                    <label for="mobile" class="float-right">رقم الجوال <span class="red-color">*</span></label>
+                                    <p class="m-0 percent-number float-left">
+                                        10%
+                                    </p>
+                                </div>
+                                <input disabled id="mobile" type="number" class="form-control" placeholder="رقم الجوال" required=""
+                                       value="0595779004" data-parsley-required-message="ادخل رقم الجوال">
+                            </div>
+                            <div class="form-group position-relative">
+                                <button type="button" class="left-btn e-btn">
+                                    تعديل
+                                </button>
+                                <button type="button" class="left-btn d-none s-btn">
+                                    حفظ
+                                </button>
+                                <div class="clearfix">
+                                    <label for="date" class="float-right">تاريخ الميلاد <span class="red-color">*</span></label>
+                                    <p class="m-0 percent-number float-left">
+                                        10%
+                                    </p>
+                                </div>
+                                <input disabled id="date" type="date" class="form-control text-right" placeholder="تاريخ الميلاد" required=""
+                                       value="1990-02-25" data-parsley-required-message="">
+                            </div>
+                            <div class="form-group position-relative">
+                                <button type="button" class="left-btn ">
+                                    تفعيل
+                                </button>
+                                <div class="clearfix">
+                                    <label for="mobile_act" class="float-right">تفعيل رقم الجوال <span class="red-color">*</span></label>
+                                    <p class="m-0 percent-number float-left">
+                                        10%
+                                    </p>
+                                </div>
+                                <input  id="mobile_act" type="number" class="form-control" placeholder="تفعيل رقم الجوال" required=""
+                                       value="0595779004" data-parsley-required-message="ادخل رقم الجوال">
+                            </div>
+                            <button type="submit" class="d-block my-btn green-btn text-center">
+                               حفظ
+                            </button>
+                        </div>
+                    </form>
+                    <form action="#"  data-parsley-validate="" data-parsley-trigger="keyup , change" novalidate="">
+                        <div class="edit-profile-form-container my-card p-4 mt-4">
+                            <h5 class="font-700 mainColor mb-4">
+                                اعدادات كلمة المرور
+                            </h5>
+                            <div class="form-group">
+                                <label for="my_pass">كلمة المرور الحالية</label>
+                                <input id="my_pass" type="password" minlength="6" class="form-control" placeholder="كلمة المرور الحالية" required="" data-parsley-required-message="ادخل كلمة المرور الحالية ">
+                            </div>
+                            <div class="form-group">
+                                <label for="pw">كلمة المرور الجديدة</label>
+                                <input id="pw" type="password" minlength="6" class="form-control" placeholder="كلمة المرور الجديدة" required="" data-parsley-required-message="ادخل كلمة المرور الجديدة ">
+                            </div>
+                            <div class="form-group">
+                                <label for="pw2">تأكيد كلمة المرور الجديدة</label>
+                                <input id="pw2" type="password" class="form-control" placeholder="تأكيد كلمة المرور" required="" data-parsley-equalto="#pw" data-parsley-equalto-message=" كلمة المرور لا تتطابق" data-parsley-required-message="أعد كتابة كلمة المرور ">
+                            </div>
+
+                            <button type="submit" class="d-block my-btn green-btn text-center">
+                                تغير كلمة المرور
+                            </button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-md-right text-center ">
+                    <p class="m-md-0 mb-3">جميع الحقوق محفوظة &copy; لموقع قيم</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="social-footer list-inline text-md-left text-center m-0">
+                        <li class="list-inline-item "><a href="#" class="insta"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="list-inline-item "><a href="#" class="twit"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="face"><i class="fab fa-facebook-f"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-rtl.js"></script>
+<script src="js/parsley.min.js"></script>
+<script src="js/sweetalert2.min.js"></script>
+<script>
+    $(function () {
+        var $ppc = $('.progress-pie-chart'),
+            percent = parseInt($ppc.data('percent')),
+            deg = 360 * percent / 100;
+        if (percent > 50) {
+            $ppc.addClass('gt-50');
+        }
+        $('.ppc-progress-fill').css('transform', 'rotate(' + deg + 'deg)');
+        $('.ppc-percents span').html(percent + '%');
+    });
+
+</script>
+
+<script src="js/main.js"></script>
+</body>
+</html>

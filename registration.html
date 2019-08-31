@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>قيم</title>
+    <link rel="stylesheet" href="css/bootstrap-rtl.css">
+    <link rel="stylesheet" href="css/website.css">
+</head>
+<body>
+<div class="page-container">
+    <header class="header ">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="">
+                </a>
+            </div>
+        </nav>
+    </header>
+    <div class="register-container">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6  d-lg-block d-none align-self-center">
+                    <h2 class="big-font-size mainColor">
+                        لوريم إيبسوم هو ببساطة نص شكلي
+                    </h2>
+                    <p>
+                        لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات
+                        المطابع ودور النشر. كان لوريم إيبسوم ولايزال ويُستخدم في صناعات المطابع ودور النشر. كان لوريم
+                        إيبسوم ولايزال وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال
+                        ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-8">
+                    <div class="register-c">
+                        <h4 class="mainColor text-center font-600 mb-4">
+                            مقيّم جديد
+                        </h4>
+
+                        <form action="#" data-parsley-validate="" data-parsley-trigger="keyup , change" novalidate="">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="الإسم الأول" required
+                                               data-parsley-required-message="ادخل اسمك الأول">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="الإسم الأخير" required
+                                               data-parsley-required-message="ادخل اسمك الأخير">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="اسم المستخدم" required
+                                               data-parsley-required-message="ادخل اسم المستخدم">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="الإيميل" required
+                                               data-parsley-required-message="ادخل الإيميل">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input id="pw" type="password" minlength="6" class="form-control" placeholder="كلمة المرور" required
+                                               data-parsley-required-message="نسيت ادخال كلمة المرور ">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" placeholder="تأكيد كلمة المرور" required
+                                               data-parsley-equalto="#pw" data-parsley-equalto-message=" كلمة المرور لا تتطابق"
+                                               data-parsley-required-message="أعد كتابة كلمة المرور ">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group my-select">
+                                        <select class="form-control" required
+                                                data-parsley-required-message="يجب اختيار الدولة ">
+                                            <option value="" disabled selected hidden>الدولة</option>
+                                            <option value="1">2</option>
+                                            <option value="2">3</option>
+                                            <option value="3">4</option>
+                                            <option value="4">5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group my-select">
+                                        <select class="form-control" required
+                                                data-parsley-required-message="يجب اختيار المنطقة ">
+                                            <option value="" disabled selected hidden>المنطقة</option>
+                                            <option value="1">2</option>
+                                            <option value="2">3</option>
+                                            <option value="3">4</option>
+                                            <option value="4">5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="رقم الجوال" required
+                                               data-parsley-required-message="ادخل رقم الجوال ">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group my-select">
+                                        <select class="form-control" required
+                                                data-parsley-required-message="يجب اختيار الجنس ">
+                                            <option value="" disabled selected hidden>الجنس</option>
+                                            <option value="1">ذكر</option>
+                                            <option value="2">انثى</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="d_day" class="pr-3">تاريخ الميلاد</label>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group my-select">
+
+                                        <select class="form-control" id="d_day" required
+                                                data-parsley-required-message="يجب اختيار اليوم ">
+                                            <option value="" disabled selected hidden>اليوم</option>
+                                            <option value="1">2</option>
+                                            <option value="2">3</option>
+                                            <option value="3">4</option>
+                                            <option value="4">5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group my-select">
+                                        <select class="form-control" required
+                                                data-parsley-required-message="يجب اختيار الشهر ">
+                                            <option value="" disabled selected hidden>الشهر</option>
+                                            <option value="1">2</option>
+                                            <option value="2">3</option>
+                                            <option value="3">4</option>
+                                            <option value="4">5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group my-select">
+                                        <select class="form-control" required
+                                                data-parsley-required-message="يجب اختيار السنة ">
+                                            <option value="" disabled selected hidden>السنة</option>
+                                            <option value="1">2</option>
+                                            <option value="2">3</option>
+                                            <option value="3">4</option>
+                                            <option value="4">5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-4">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck1" required
+                                               data-parsley-required-message="اقرأ الشروط ووافق عليها ">
+                                        <label class="custom-control-label" for="customCheck1"> أوافق على <a
+                                                href="#" class="mainColor">كافة الشروط</a></label>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-4">
+                                    <button type="submit" class="d-block w-100">
+                                        تسجيل مقيّم جديد
+                                    </button>
+                                </div>
+                                <div class="col-12">
+                                    <div class="right-left-line text-center">
+                                    <p>أو سجل الإشتراك عن طريق</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row social-btn mt-2">
+                                <div class="col-lg-4">
+                                    <a href="#" class="my-btn face-btn d-block  btn-icon py-2">
+                                        Facebook
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4">
+                                    <a href="#" class="my-btn google-btn d-block  btn-icon py-2">
+                                        Google
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4">
+                                    <a href="#" class="my-btn twitter-btn d-block  btn-icon py-2 mb-0">
+                                        Twitter
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <p class="text-center mt-4">
+                                        لديك حساب على قيم ؟ <a href="#" class="mainColor">سجل الدخول</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-rtl.js"></script>
+<script src="js/parsley.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
