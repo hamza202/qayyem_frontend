@@ -368,6 +368,7 @@ header {
   background: url(../images/home-bg.png) no-repeat white center center;
   background-size: cover;
   position: relative;
+  min-height: calc(100vh - 54px - 72px);
 
   .home-overly {
     position: absolute;
